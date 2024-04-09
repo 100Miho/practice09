@@ -1,11 +1,13 @@
 package com.javaex.ex04;
 
 public class RectTriangle extends Shape {
+	// 필드
     private double width;
     private double height;
     
+    // 생성자
 	public RectTriangle(double w, double h) {
-		super(3);
+//		super(3);
 		this.width = w;
 		this.height = h;
 	}
